@@ -6,11 +6,11 @@
 
 
 ## Waifu Encyclopedia is a discord bot made in python, for educational purposes. The goal is to develop a bot capable of receiving characters from Animes and returning a valid image of it.
-Recent Functional Example:
+### Recent Functional Example:
 
 ![image](https://user-images.githubusercontent.com/78284549/163743284-4e811877-e275-4114-9d5a-9aee53ffd311.png)
 
-## Instructions:
+### Instructions:
 1. Rename `.env.example` to `.env`
 2. Change the contents of `.env` according to your data
 3. `cd src && python3 main.py`
