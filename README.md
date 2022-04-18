@@ -2,7 +2,7 @@
 <br>
 [![GitHub tag](https://img.shields.io/github/tag/GroovyWizard/discord-bot-waifu-encyclopedia)](https://github.com/GroovyWizard/discord-bot-waifu-encyclopedia/tags)
 [![GitHub license](https://img.shields.io/github/license/GroovyWizard/discord-bot-waifu-encyclopedia)](https://github.com/GroovyWizard/discord-bot-waifu-encyclopedia/blob/master/LICENSE)
-![ci-cd main](https://github.com/GroovyWizard/discord-bot-waifu-encyclopedia/actions/workflows/ci-cd.yml/badge.svg?branch=main)
+![ci-cd](https://github.com/GroovyWizard/discord-bot-waifu-encyclopedia/actions/workflows/ci-cd.yml/badge.svg)
 
 
 
