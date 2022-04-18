@@ -1,4 +1,4 @@
-from bot.bot import run_bot
+from bot.main import run_bot
 
 def main():
     run_bot()
