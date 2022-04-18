@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="2" failures="0" skipped="0" tests="2" time="0.350" timestamp="2022-04-17T22:50:56.655453" hostname="skeletor-ultra-castle"><testcase classname="" name="src.main" time="0.000"><error message="collection failure">src/main.py:1: in &lt;module&gt;
-    from bot.main import run_bot
-E   ModuleNotFoundError: No module named 'bot'</error></testcase><testcase classname="" name="src.bot.main" time="0.000"><error message="collection failure">src/bot/main.py:4: in &lt;module&gt;
-    from image_manager.main import *
-E   ModuleNotFoundError: No module named 'image_manager'</error></testcase></testsuite></testsuites>
