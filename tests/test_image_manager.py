@@ -1,4 +1,4 @@
-from src.image_manager import *
+from src.image_manager.main import *
 import pytest 
 
 class TestBot(): 
