@@ -1,5 +1,5 @@
 from unittest import TestCase
-from image_manager import *
+from .image_manager import *
 
 class TestBot(TestCase):
     

@@ -6,6 +6,7 @@ from image_manager import *
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
+MAINTAINER = os.getenv('MAINTAINER')
 client = discord.Client()
 
 
@@ -29,7 +30,11 @@ async def on_message(message):
             await message.channel.send(file=discord.File(retrieve_image('miku')))
         case '!doge':
             await message.channel.send(file=discord.File(retrieve_image('doge')))
+
+        case _:
+            file = discord.File(retrieve_image('default'))
+            await message.channel.send('Not yet implemented, ask the maintainer({}) to support that character!!'.format(MAINTAINER), file=file)
         
 
-
-client.run(TOKEN)
+def run_bot():
+    client.run(TOKEN)
