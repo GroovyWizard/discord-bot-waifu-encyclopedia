@@ -1,7 +1,7 @@
 import os
 import discord
 from dotenv import load_dotenv
-from image_manager import *
+from image_manager.main import *
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
